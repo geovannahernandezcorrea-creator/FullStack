@@ -1,7 +1,7 @@
 const express = require('express');
 const sequelize = require('./database/db');
 const cors = require('cors');
-const livroControllers = require('./controllers/LivroControllers');
+const livroControllers = require('./controllers/LivroControllers.js');
 
 const app = express();
 const PORT = 3000;
